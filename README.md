@@ -1,1 +1,3 @@
-# Gibbs-Sampling---Bayesian-Inference
+# Gibbs Sampling - Bayesian Inference
+
+This code demonstrates how to perform Bayesian inference on a simple linear regression model using Gibbs sampling. The goal is to estimate the model parameters (intercept α, slope β, and error variance σ²) based on simulated data. The code generates posterior samples for these parameters and analyzes them using graphical methods (like time series plots and histograms) and statistical summaries (such as mean, median, credible intervals, and HPD intervals). Additionally, the code applies burn-in and thinning techniques to improve the accuracy of the results, and it checks for convergence through autocorrelation plots. This approach allows us to estimate the uncertainty in the model parameters using a Bayesian framework.
